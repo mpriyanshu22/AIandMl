@@ -7,13 +7,13 @@ A consolidated workspace repository containing artificial intelligence, generati
 ```
 AIandML/
 ├── AIALL/              # Generative AI, LLM applications, Agents, and RAG projects
+│   ├── practice/       # LangGraph, RAG pipelines, Minicursor, Ollama, Vector search
 │   ├── Practice-19-09-26/
 │   ├── Practice-20-09-26/
 │   └── (Standalone repositories tracked independently):
 │       ├── cursor_vibe_talker/app/ -> mpriyanshu22/Vibe-talker
 │       ├── Gen-Ai-practice/        -> mpriyanshu22/Full-Rag
-│       ├── minicursor/             -> mpriyanshu22/Minicursor
-│       └── practice/               -> mpriyanshu22/GenAIDemo
+│       └── minicursor/             -> mpriyanshu22/Minicursor
 │
 └── MLALL/              # Core Machine Learning concepts, libraries, and foundational exercises
     ├── day1/ ... day3/ # Foundational Python & environments
