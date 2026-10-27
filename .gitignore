@@ -1,0 +1,112 @@
+# =========================
+# Standalone Sub-Repositories (tracked separately on GitHub)
+# =========================
+AIALL/cursor_vibe_talker/app/
+AIALL/Gen-Ai-practice/
+AIALL/minicursor/
+AIALL/practice/
+
+# =========================
+# Python & Virtual Environments
+# =========================
+venv/
+.venv/
+env/
+ENV/
+venv_old/
+*/venv/
+*/.venv/
+*/venv_old/
+env.bak/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*/__pycache__/
+*/**/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Pytest / Coverage / Caches
+.pytest_cache/
+*/.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# =========================
+# Node.js & Web
+# =========================
+node_modules/
+*/node_modules/
+*/**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.next/
+out/
+
+# =========================
+# Environment & Secrets (CRITICAL)
+# =========================
+.env
+.env.*
+*.env
+*/**/.env
+*/**/.env.*
+*/**/*.env
+!.env.example
+!*.env.example
+
+# =========================
+# Databases & Local Vector Stores
+# =========================
+chroma_data/
+*/chroma_data/
+checkpoint/
+*/checkpoint/
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+*.log
+logs/
+*/logs/
+
+# =========================
+# OS & Editor Files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.sublime-project
+*.sublime-workspace

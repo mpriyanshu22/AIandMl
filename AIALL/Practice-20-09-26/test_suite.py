@@ -1,0 +1,1 @@
+  # Integration tests (like Jest / Supertest)
